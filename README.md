@@ -12,11 +12,11 @@ Darknet-Cross is part of my MSc diploma project in HKU CS.
 
 ### [1. Framework Compare](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Introduction.md#1-framework-compare)
 
-#### [1.1 Original Darknet]
+#### [1.1 Original Darknet](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Introduction.md#11-original-darknet)
 
-#### [1.2 yolov2_light]
+#### [1.2 yolov2_light](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Introduction.md#12-yolov2_light)
 
-#### [1.3 Darknet-Cross]
+#### [1.3 Darknet-Cross](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Introduction.md#13-darknet-cross)
 
 ### [2. YOLO-V3 Model](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Introduction.md#2-yolo-v3-model)
 
