@@ -10,11 +10,11 @@ Darknet including the following versions:
 
 The different version is specified in Makefile.
 
-## Project Structure
+## 1. Project Structure
 
 ![](img/6.png)
 
-### 1. Makefile
+### 1.1 Makefile
 
 [Make](https://randu.org/tutorials/c/make.php) is the most commonly used build tool proposed in 1977 and designed mainly for C language projects. The [Makefile](https://www.cs.swarthmore.edu/~newhall/unixhelp/howto_makefiles.html) is used to clarify the build rules. 
 
@@ -30,11 +30,11 @@ In Makefile, I define 5 version variables:
 
 **Select the version: set the specific version value to 1 and others to 0.**
 
-### 2. Source Code Folder
+### 1.2 Source Code Folder
 
 The Source code folder places all the code files for the Darknet-Cross framework. 
 
-#### 2.1 File/Folder in all version
+#### 1.2.1 File/Folder in All Version
 
 |File/ Folder|Function|
 |:--:|:--:|
@@ -44,7 +44,7 @@ The Source code folder places all the code files for the Darknet-Cross framework
 |cpu.c|Parse the network structure defined in the configuration file, read the type and parameters of each layer of the network, write the calculation function on the CPU for each type of network and complete the calculation|
 |quantized.c|Compile this file to speed up CPU computation|
 
-#### 2.2 File/Folder in OpenCL version
+#### 1.2.2 File/Folder in OpenCL Version
 
 |File/ Folder|Function|
 |:--:|:--:|
@@ -57,30 +57,30 @@ The Source code folder places all the code files for the Darknet-Cross framework
 |clutils.cpp|Define assistant functions in OpenCL version|
 |ocl.cpp|Parse the network structure defined in the configuration file, read the type and parameters of each layer of the network, write the calculation function of the OpenCL version on the GPU for each type of network and complete the calculation|
 
-#### 2.3 File/Folder in CUDA version
+#### 1.2.3 File/Folder in CUDA Version
 
 |File/ Folder|Function|
 |:--:|:--:|
 |gpu.cu|Initialize and manage the CUDA kernels, define the functions used in CUDA version|
 |gpu.c|Parse the network structure defined in the configuration file, read the type and parameters of each layer of the network, write the calculation function of the CUDA version on the GPU for each type of network and complete the calculation|
 
-### 3. 3rdParty Folder
+### 1.3. 3rdParty Folder
 
 The 3rdParty Folder places third-party libraries used by Darknet-Cross framework, including: [OpenCV](https://opencv.org/) for video processing, [CUDA](https://developer.nvidia.com/cuda-downloads) and [OpenCL](https://www.khronos.org/opencl/) for invoking GPU, [cuDNN](https://developer.nvidia.com/cudnn) for accelerating CUDA deep learning calculations,  [CLBlast](https://github.com/CNugteren/CLBlast) for accelerating OpenCL linear algebra calculations.
 
-### 4. Object Folder
+### 1.4. Object Folder
 
 The compilation process is compiled into a binary object file according to the current source code. The link process is to link the generated object file with the library file and other files to generate an executable file (.exe file).
 
 The object file generation rules are specified by the Makefile and the .o files are stored in the Object folder.
 
-### 5. Bin Folder
+### 1.5. Bin Folder
 
 The Bin folder contains the generated executable file, the YOLO model configuration file, the weight file, the image and MP4 files used for testing. For the OpenCL version, Kernel.cl and executable file need to be placed in the same folder for the executable file to read and launch the OpenCL kernel during execution. 
 
-## Workflow
+## 2. Workflow
 
-### Ubuntu Version
+### 2.1 Ubuntu Version
 
 ![](img/7.png)
 
@@ -90,7 +90,7 @@ The Bin folder contains the generated executable file, the YOLO model configurat
 - **Calculate stage:** the Darknet-Cross framework will accomplish the object detection for the input file based on YOLO-V3/ YOLO-V3-Tiny. The specific devices (CPU/ GPU-CUDA/ GPU-OpenCL) will assist the computation and increase the processing speed.
 - **Return result stage:** the prediction result will be returned and displayed on the screen by using functions in OpenCV.
 
-### Android Version
+### 2.2 Android Version
 
 ![](img/8.png)
 

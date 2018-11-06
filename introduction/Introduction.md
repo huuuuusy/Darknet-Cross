@@ -2,7 +2,7 @@
 
 Darknet-Cross is a lightweight deep learning framework based on [Darknet](https://github.com/pjreddie/darknet) and [yolov2_light](https://github.com/AlexeyAB/yolo2_light).
 
-## Framework Compare
+## 1. Framework Compare
 
 ### Original Darknet
 
@@ -24,7 +24,7 @@ The following image lists the differences between the original Darknet, the YOLO
 
 ![](img/2.png)
 
-## YOLO-V3 Model
+## 2. YOLO-V3 Model
 
 Darknet-Cross provides GPU-based acceleration for the YOLO-V3 algorithm. YOLO-V3 has a sophisticated network structure, which absorbs the structural advantages of numerous classical deep neural networks. As a object detection algorithm, it can achieve a balance between accuracy and recognition speed.
 
@@ -47,7 +47,7 @@ YOLO-V3 has the following advantages:
 2. YOLO-V3 normalizes the input image to achieve batch processing and generates tensors that can be accelerated by GPU to improve FPS.
 3. YOLO-V3 provides Tiny version to further enhance FPS while retaining the advantages of YOLO-V3 structure. 
 
-## Darknet-Cross Function
+## 3. Darknet-Cross Function
 
 Darknet-Cross is a light-weighted DL framework designed for multi-platform and multi-GPU. It provides the following versions:
 
