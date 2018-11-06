@@ -20,6 +20,16 @@ The different version is specified in Makefile.
 
 This project has defined several variates to assign the specific version in compiling process.
 
+In Makefile, I define 5 version variables:
+
+    ANDROID_CPU = 0
+    ANDROID_OPENCL = 0
+    UBUNTU_CPU = 1
+    UBUNTU_CUDA = 0
+    UBUNTU_OPENCL = 0
+
+**Select the version: set the specific version value to 1 and others to 0.**
+
 ### 2. Source Code Folder
 
 The Source code folder places all the code files for the Darknet-Cross framework. 
