@@ -1,0 +1,26 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/media/hu/hu-disk/test/opencv-test/opencv/modules/shape/test/test_main.cpp",
+			"labels" : [ "Main", "opencv_shape", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/media/hu/hu-disk/test/opencv-test/opencv/modules/shape/test/test_shape.cpp",
+			"labels" : [ "Main", "opencv_shape", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/media/hu/hu-disk/test/opencv-test/opencv/modules/shape/test/test_precomp.hpp",
+			"labels" : [ "Main", "opencv_shape", "AccuracyTest" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_shape", "AccuracyTest" ],
+		"name" : "opencv_test_shape"
+	}
+}

@@ -1,0 +1,2 @@
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc-ar qc ../lib/armeabi/libcpufeatures.a  CMakeFiles/libcpufeatures.dir/cpu-features.c.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib ../lib/armeabi/libcpufeatures.a

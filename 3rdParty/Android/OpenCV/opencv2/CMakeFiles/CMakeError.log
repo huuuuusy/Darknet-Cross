@@ -1,0 +1,911 @@
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9416/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9416.dir/build.make CMakeFiles/cmTC_d9416.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d9416.dir/src.cxx.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++  -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_d9416.dir/src.cxx.o -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_d9416
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9416.dir/link.txt --verbose=1
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_d9416.dir/src.cxx.o -o cmTC_d9416  "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libsupc++.a" -lm
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d169d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d169d.dir/build.make CMakeFiles/cmTC_d169d.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d169d.dir/src.cxx.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++  -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_d169d.dir/src.cxx.o -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_d169d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d169d.dir/link.txt --verbose=1
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_d169d.dir/src.cxx.o -o cmTC_d169d  "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libsupc++.a" -lm
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option '-Wsign-promo' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_57205/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57205.dir/build.make CMakeFiles/cmTC_57205.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57205.dir/src.c.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTC_57205.dir/src.c.o   -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option '-Wsign-promo' is valid for C++/ObjC++ but not for C
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_57205
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57205.dir/link.txt --verbose=1
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_57205.dir/src.c.o -o cmTC_57205  "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libsupc++.a"
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53e8c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53e8c.dir/build.make CMakeFiles/cmTC_53e8c.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_53e8c.dir/src.cxx.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++  -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -std=c++11 -o CMakeFiles/cmTC_53e8c.dir/src.cxx.o -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized command line option '-Wsuggest-override'
+CMakeFiles/cmTC_53e8c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_53e8c.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_53e8c.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_53e8c/fast' failed
+make: *** [cmTC_53e8c/fast] Error 2
+
+===== END =====
+
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab372/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ab372.dir/build.make CMakeFiles/cmTC_ab372.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab372.dir/src.c.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wsuggest-override -o CMakeFiles/cmTC_ab372.dir/src.c.o   -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized command line option '-Wsuggest-override'
+CMakeFiles/cmTC_ab372.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ab372.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ab372.dir/src.c.o] Error 1
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ab372/fast' failed
+make: *** [cmTC_ab372/fast] Error 2
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option '-Wno-delete-non-virtual-dtor' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_57cfb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57cfb.dir/build.make CMakeFiles/cmTC_57cfb.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57cfb.dir/src.c.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_57cfb.dir/src.c.o   -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option '-Wno-delete-non-virtual-dtor' is valid for C++/ObjC++ but not for C
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_57cfb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57cfb.dir/link.txt --verbose=1
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_57cfb.dir/src.c.o -o cmTC_57cfb  "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libsupc++.a"
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-unnamed-type-template-args"'
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6319a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6319a.dir/build.make CMakeFiles/cmTC_6319a.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6319a.dir/src.cxx.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++  -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_6319a.dir/src.cxx.o -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-unnamed-type-template-args"
+Linking CXX executable cmTC_6319a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6319a.dir/link.txt --verbose=1
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_6319a.dir/src.cxx.o -o cmTC_6319a  "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libsupc++.a" -lm
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-unnamed-type-template-args"'
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0dcfc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0dcfc.dir/build.make CMakeFiles/cmTC_0dcfc.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0dcfc.dir/src.c.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_0dcfc.dir/src.c.o   -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-unnamed-type-template-args"
+Linking C executable cmTC_0dcfc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dcfc.dir/link.txt --verbose=1
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_0dcfc.dir/src.c.o -o cmTC_0dcfc  "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libsupc++.a"
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_neon.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd793/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bd793.dir/build.make CMakeFiles/cmTC_bd793.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bd793.dir/cpu_neon.cpp.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++  -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -std=c++11 -o CMakeFiles/cmTC_bd793.dir/cpu_neon.cpp.o -c /media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_neon.cpp
+/media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_neon.cpp:20:2: error: #error "NEON is not supported"
+ #error "NEON is not supported"
+  ^
+/media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_neon.cpp: In function 'int main()':
+/media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_neon.cpp:25:23: error: 'test' was not declared in this scope
+   printf("%d\n", test());
+                       ^
+CMakeFiles/cmTC_bd793.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_bd793.dir/cpu_neon.cpp.o' failed
+make[1]: *** [CMakeFiles/cmTC_bd793.dir/cpu_neon.cpp.o] Error 1
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bd793/fast' failed
+make: *** [cmTC_bd793/fast] Error 2
+
+===== END =====
+
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_neon.cpp'
+    check option: ' -mfpu=neon'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_442d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_442d7.dir/build.make CMakeFiles/cmTC_442d7.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_442d7.dir/cpu_neon.cpp.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++  -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -mfpu=neon -std=c++11 -o CMakeFiles/cmTC_442d7.dir/cpu_neon.cpp.o -c /media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_neon.cpp
+/media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_neon.cpp:20:2: error: #error "NEON is not supported"
+ #error "NEON is not supported"
+  ^
+/media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_neon.cpp: In function 'int main()':
+/media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_neon.cpp:25:23: error: 'test' was not declared in this scope
+   printf("%d\n", test());
+                       ^
+CMakeFiles/cmTC_442d7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_442d7.dir/cpu_neon.cpp.o' failed
+make[1]: *** [CMakeFiles/cmTC_442d7.dir/cpu_neon.cpp.o] Error 1
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_442d7/fast' failed
+make: *** [cmTC_442d7/fast] Error 2
+
+===== END =====
+
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_fp16.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a513b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a513b.dir/build.make CMakeFiles/cmTC_a513b.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a513b.dir/cpu_fp16.cpp.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++  -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -std=c++11 -o CMakeFiles/cmTC_a513b.dir/cpu_fp16.cpp.o -c /media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_fp16.cpp
+In file included from /media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_fp16.cpp:15:0:
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/arm_neon.h:31:2: error: #error You must enable NEON instructions (e.g. -mfloat-abi=softfp -mfpu=neon) to use arm_neon.h
+ #error You must enable NEON instructions (e.g. -mfloat-abi=softfp -mfpu=neon) to use arm_neon.h
+  ^
+/media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_fp16.cpp: In function 'int test()':
+/media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_fp16.cpp:20:5: error: 'float32x4_t' was not declared in this scope
+     float32x4_t v_src = *(float32x4_t*)src;
+     ^
+/media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_fp16.cpp:21:5: error: 'float16x4_t' was not declared in this scope
+     float16x4_t v_dst = vcvt_f16_f32(v_src);
+     ^
+/media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_fp16.cpp:22:19: error: expected primary-expression before ')' token
+     *(float16x4_t*)dst = v_dst;
+                   ^
+CMakeFiles/cmTC_a513b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a513b.dir/cpu_fp16.cpp.o' failed
+make[1]: *** [CMakeFiles/cmTC_a513b.dir/cpu_fp16.cpp.o] Error 1
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a513b/fast' failed
+make: *** [cmTC_a513b/fast] Error 2
+
+===== END =====
+
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_fp16.cpp'
+    check option: ' -mfpu=neon-fp16'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15d59/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15d59.dir/build.make CMakeFiles/cmTC_15d59.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_15d59.dir/cpu_fp16.cpp.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++  -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -mfpu=neon-fp16 -std=c++11 -o CMakeFiles/cmTC_15d59.dir/cpu_fp16.cpp.o -c /media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_fp16.cpp
+In file included from /media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_fp16.cpp:15:0:
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/arm_neon.h:31:2: error: #error You must enable NEON instructions (e.g. -mfloat-abi=softfp -mfpu=neon) to use arm_neon.h
+ #error You must enable NEON instructions (e.g. -mfloat-abi=softfp -mfpu=neon) to use arm_neon.h
+  ^
+/media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_fp16.cpp: In function 'int test()':
+/media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_fp16.cpp:20:5: error: 'float32x4_t' was not declared in this scope
+     float32x4_t v_src = *(float32x4_t*)src;
+     ^
+/media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_fp16.cpp:21:5: error: 'float16x4_t' was not declared in this scope
+     float16x4_t v_dst = vcvt_f16_f32(v_src);
+     ^
+/media/hu/hu-disk/test/opencv-test/opencv/cmake/checks/cpu_fp16.cpp:22:19: error: expected primary-expression before ')' token
+     *(float16x4_t*)dst = v_dst;
+                   ^
+CMakeFiles/cmTC_15d59.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_15d59.dir/cpu_fp16.cpp.o' failed
+make[1]: *** [CMakeFiles/cmTC_15d59.dir/cpu_fp16.cpp.o] Error 1
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_15d59/fast' failed
+make: *** [cmTC_15d59/fast] Error 2
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_99b60/fast"
+/usr/bin/make -f CMakeFiles/cmTC_99b60.dir/build.make CMakeFiles/cmTC_99b60.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99b60.dir/src.c.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_99b60.dir/src.c.o   -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_99b60
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99b60.dir/link.txt --verbose=1
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_99b60.dir/src.c.o -o cmTC_99b60  "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libsupc++.a"
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-shorten-64-to-32"'
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_45be4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_45be4.dir/build.make CMakeFiles/cmTC_45be4.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45be4.dir/src.c.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_45be4.dir/src.c.o   -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-shorten-64-to-32"
+Linking C executable cmTC_45be4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45be4.dir/link.txt --verbose=1
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  -Wl,--gc-sections  CMakeFiles/cmTC_45be4.dir/src.c.o -o cmTC_45be4  "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libsupc++.a"
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-implicit-fallthrough"'
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-fallthrough'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_93fa8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_93fa8.dir/build.make CMakeFiles/cmTC_93fa8.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93fa8.dir/src.c.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -Wno-implicit-fallthrough -o CMakeFiles/cmTC_93fa8.dir/src.c.o   -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-implicit-fallthrough"
+Linking C executable cmTC_93fa8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93fa8.dir/link.txt --verbose=1
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  -Wl,--gc-sections  CMakeFiles/cmTC_93fa8.dir/src.c.o -o cmTC_93fa8  "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libsupc++.a"
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20592/fast"
+/usr/bin/make -f CMakeFiles/cmTC_20592.dir/build.make CMakeFiles/cmTC_20592.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_20592.dir/CheckIncludeFile.c.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_20592.dir/CheckIncludeFile.c.o   -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:16: fatal error: io.h: No such file or directory
+ #include <io.h>
+                ^
+compilation terminated.
+CMakeFiles/cmTC_20592.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_20592.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_20592.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_20592/fast' failed
+make: *** [cmTC_20592/fast] Error 2
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f4147/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f4147.dir/build.make CMakeFiles/cmTC_f4147.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4147.dir/int8.c.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_f4147.dir/int8.c.o   -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CheckTypeSize/int8.c
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CheckTypeSize/int8.c:17:22: error: 'INT8' undeclared here (not in a function)
+ #define SIZE (sizeof(INT8))
+                      ^
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CheckTypeSize/int8.c:19:12: note: in expansion of macro 'SIZE'
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTC_f4147.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f4147.dir/int8.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_f4147.dir/int8.c.o] Error 1
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f4147/fast' failed
+make: *** [cmTC_f4147/fast] Error 2
+
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa4cf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fa4cf.dir/build.make CMakeFiles/cmTC_fa4cf.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa4cf.dir/int16.c.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_fa4cf.dir/int16.c.o   -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CheckTypeSize/int16.c
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CheckTypeSize/int16.c:17:22: error: 'INT16' undeclared here (not in a function)
+ #define SIZE (sizeof(INT16))
+                      ^
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CheckTypeSize/int16.c:19:12: note: in expansion of macro 'SIZE'
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTC_fa4cf.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_fa4cf.dir/int16.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_fa4cf.dir/int16.c.o] Error 1
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fa4cf/fast' failed
+make: *** [cmTC_fa4cf/fast] Error 2
+
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_860ff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_860ff.dir/build.make CMakeFiles/cmTC_860ff.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_860ff.dir/int32.c.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_860ff.dir/int32.c.o   -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CheckTypeSize/int32.c
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CheckTypeSize/int32.c:17:22: error: 'INT32' undeclared here (not in a function)
+ #define SIZE (sizeof(INT32))
+                      ^
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CheckTypeSize/int32.c:19:12: note: in expansion of macro 'SIZE'
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTC_860ff.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_860ff.dir/int32.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_860ff.dir/int32.c.o] Error 1
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_860ff/fast' failed
+make: *** [cmTC_860ff/fast] Error 2
+
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function setmode exists failed with the following output:
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_32cca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_32cca.dir/build.make CMakeFiles/cmTC_32cca.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_32cca.dir/CheckFunctionExists.c.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_32cca.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_32cca
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32cca.dir/link.txt --verbose=1
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  -Wl,--gc-sections  CMakeFiles/cmTC_32cca.dir/CheckFunctionExists.c.o -o cmTC_32cca  "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libsupc++.a"
+CMakeFiles/cmTC_32cca.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'setmode'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_32cca.dir/build.make:97: recipe for target 'cmTC_32cca' failed
+make[1]: *** [cmTC_32cca] Error 1
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_32cca/fast' failed
+make: *** [cmTC_32cca/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-misleading-indentation"'
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4f600/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f600.dir/build.make CMakeFiles/cmTC_4f600.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f600.dir/src.c.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -Wno-misleading-indentation -o CMakeFiles/cmTC_4f600.dir/src.c.o   -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-misleading-indentation"
+Linking C executable cmTC_4f600
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f600.dir/link.txt --verbose=1
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  -Wl,--gc-sections  CMakeFiles/cmTC_4f600.dir/src.c.o -o cmTC_4f600  "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libsupc++.a"
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-pointer-compare"'
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-pointer-compare'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e450f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e450f.dir/build.make CMakeFiles/cmTC_e450f.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e450f.dir/src.c.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -Wno-pointer-compare -o CMakeFiles/cmTC_e450f.dir/src.c.o   -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-pointer-compare"
+Linking C executable cmTC_e450f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e450f.dir/link.txt --verbose=1
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  -Wl,--gc-sections  CMakeFiles/cmTC_e450f.dir/src.c.o -o cmTC_e450f  "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libsupc++.a"
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-absolute-value"'
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-absolute-value'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f117/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7f117.dir/build.make CMakeFiles/cmTC_7f117.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f117.dir/src.c.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -Wno-absolute-value -o CMakeFiles/cmTC_7f117.dir/src.c.o   -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-absolute-value"
+Linking C executable cmTC_7f117
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f117.dir/link.txt --verbose=1
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  -Wl,--gc-sections  CMakeFiles/cmTC_7f117.dir/src.c.o -o cmTC_7f117  "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libsupc++.a"
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-misleading-indentation"'
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0667/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a0667.dir/build.make CMakeFiles/cmTC_a0667.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a0667.dir/src.cxx.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++  -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -Wno-misleading-indentation -std=c++11 -o CMakeFiles/cmTC_a0667.dir/src.cxx.o -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-misleading-indentation"
+Linking CXX executable cmTC_a0667
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0667.dir/link.txt --verbose=1
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  -Wl,--gc-sections  CMakeFiles/cmTC_a0667.dir/src.cxx.o -o cmTC_a0667  "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libsupc++.a" -lm
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-suggest-override"'
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-suggest-override'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3df00/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3df00.dir/build.make CMakeFiles/cmTC_3df00.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3df00.dir/src.cxx.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++  -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -Wno-suggest-override -std=c++11 -o CMakeFiles/cmTC_3df00.dir/src.cxx.o -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-suggest-override"
+Linking CXX executable cmTC_3df00
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3df00.dir/link.txt --verbose=1
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  -Wl,--gc-sections  CMakeFiles/cmTC_3df00.dir/src.cxx.o -o cmTC_3df00  "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libsupc++.a" -lm
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-inconsistent-missing-override"'
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1c5a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1c5a.dir/build.make CMakeFiles/cmTC_d1c5a.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d1c5a.dir/src.cxx.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++  -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_d1c5a.dir/src.cxx.o -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-inconsistent-missing-override"
+Linking CXX executable cmTC_d1c5a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1c5a.dir/link.txt --verbose=1
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  -Wl,--gc-sections  CMakeFiles/cmTC_d1c5a.dir/src.cxx.o -o cmTC_d1c5a  "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libsupc++.a" -lm
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-implicit-fallthrough"'
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-implicit-fallthrough'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_63c4a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_63c4a.dir/build.make CMakeFiles/cmTC_63c4a.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_63c4a.dir/src.cxx.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++  -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -Wno-implicit-fallthrough -std=c++11 -o CMakeFiles/cmTC_63c4a.dir/src.cxx.o -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-implicit-fallthrough"
+Linking CXX executable cmTC_63c4a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63c4a.dir/link.txt --verbose=1
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  -Wl,--gc-sections  CMakeFiles/cmTC_63c4a.dir/src.cxx.o -o cmTC_63c4a  "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libsupc++.a" -lm
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option '-Wno-missing-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7ecf2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7ecf2.dir/build.make CMakeFiles/cmTC_7ecf2.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7ecf2.dir/src.cxx.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++  -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_7ecf2.dir/src.cxx.o -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option '-Wno-missing-prototypes' is valid for C/ObjC but not for C++
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_7ecf2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ecf2.dir/link.txt --verbose=1
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  -Wl,--gc-sections  CMakeFiles/cmTC_7ecf2.dir/src.cxx.o -o cmTC_7ecf2  "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libsupc++.a" -lm
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-tautological-undefined-compare"'
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a55f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a55f.dir/build.make CMakeFiles/cmTC_9a55f.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9a55f.dir/src.cxx.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++  -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_9a55f.dir/src.cxx.o -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-tautological-undefined-compare"
+Linking CXX executable cmTC_9a55f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a55f.dir/link.txt --verbose=1
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  -Wl,--gc-sections  CMakeFiles/cmTC_9a55f.dir/src.cxx.o -o cmTC_9a55f  "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libsupc++.a" -lm
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-unused-const-variable"'
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-const-variable'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40ecf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40ecf.dir/build.make CMakeFiles/cmTC_40ecf.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_40ecf.dir/src.cxx.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++  -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -Wno-unused-const-variable -std=c++11 -o CMakeFiles/cmTC_40ecf.dir/src.cxx.o -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-unused-const-variable"
+Linking CXX executable cmTC_40ecf
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40ecf.dir/link.txt --verbose=1
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  -Wl,--gc-sections  CMakeFiles/cmTC_40ecf.dir/src.cxx.o -o cmTC_40ecf  "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libsupc++.a" -lm
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-shorten-64-to-32"'
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab1cc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ab1cc.dir/build.make CMakeFiles/cmTC_ab1cc.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ab1cc.dir/src.cxx.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++  -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_ab1cc.dir/src.cxx.o -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-shorten-64-to-32"
+Linking CXX executable cmTC_ab1cc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab1cc.dir/link.txt --verbose=1
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  -Wl,--gc-sections  CMakeFiles/cmTC_ab1cc.dir/src.cxx.o -o cmTC_ab1cc  "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libsupc++.a" -lm
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-enum-compare-switch"'
+Compilation failed:
+    source file: '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_34f0f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_34f0f.dir/build.make CMakeFiles/cmTC_34f0f.dir/build
+make[1]: Entering directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_34f0f.dir/src.cxx.o
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++  -DANDROID -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-invalid-offsetof  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_34f0f.dir/src.cxx.o -c /media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-enum-compare-switch"
+Linking CXX executable cmTC_34f0f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34f0f.dir/link.txt --verbose=1
+/media/hu/hu-disk/test/opencv/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -Wno-psabi --sysroot=/media/hu/hu-disk/test/opencv/android-ndk-r16b/platforms/android-27/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -DANDROID -D__ANDROID_API__=27   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-invalid-offsetof  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  -Wl,--gc-sections  CMakeFiles/cmTC_34f0f.dir/src.cxx.o -o cmTC_34f0f  "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" "/media/hu/hu-disk/test/opencv/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libsupc++.a" -lm
+make[1]: Leaving directory '/media/hu/hu-disk/test/opencv-test/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+

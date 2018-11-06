@@ -1,0 +1,84 @@
+PORTED FUNCs LIST (64 of 67):
+
+ int cv::dnn::Layer::outputNameToIndex(String outputName)
+ vector_Mat cv::dnn::Layer::finalize(vector_Mat inputs)
+ void cv::dnn::Layer::finalize(vector_Mat inputs, vector_Mat& outputs)
+ void cv::dnn::Layer::run(vector_Mat inputs, vector_Mat& outputs, vector_Mat& internals)
+vector_Mat Layer::blobs
+void Layer::blobs
+String Layer::name
+String Layer::type
+int Layer::preferableTarget
+ Mat cv::dnn::blobFromImage(Mat image, double scalefactor = 1.0, Size size = Size(), Scalar mean = Scalar(), bool swapRB = true, bool crop = true, int ddepth = CV_32F)
+ Mat cv::dnn::blobFromImages(vector_Mat images, double scalefactor = 1.0, Size size = Size(), Scalar mean = Scalar(), bool swapRB = true, bool crop = true, int ddepth = CV_32F)
+ Mat cv::dnn::readTorchBlob(String filename, bool isBinary = true)
+ Net cv::dnn::readNet(String framework, vector_uchar bufferModel, vector_uchar bufferConfig = std::vector<uchar>())
+ Net cv::dnn::readNet(String model, String config = "", String framework = "")
+ Net cv::dnn::readNetFromCaffe(String prototxt, String caffeModel = String())
+ Net cv::dnn::readNetFromCaffe(vector_uchar bufferProto, vector_uchar bufferModel = std::vector<uchar>())
+ Net cv::dnn::readNetFromDarknet(String cfgFile, String darknetModel = String())
+ Net cv::dnn::readNetFromDarknet(vector_uchar bufferCfg, vector_uchar bufferModel = std::vector<uchar>())
+ Net cv::dnn::readNetFromModelOptimizer(String xml, String bin)
+ Net cv::dnn::readNetFromTensorflow(String model, String config = String())
+ Net cv::dnn::readNetFromTensorflow(vector_uchar bufferModel, vector_uchar bufferConfig = std::vector<uchar>())
+ Net cv::dnn::readNetFromTorch(String model, bool isBinary = true)
+ void cv::dnn::NMSBoxes(vector_Rect bboxes, vector_float scores, float score_threshold, float nms_threshold, vector_int& indices, float eta = 1.f, int top_k = 0)
+ void cv::dnn::imagesFromBlob(Mat blob_, vector_Mat& images_)
+ void cv::dnn::shrinkCaffeModel(String src, String dst, vector_String layersTypes = std::vector<String>())
+  cv::dnn::Net::Net()
+ Mat cv::dnn::Net::forward(String outputName = String())
+ Mat cv::dnn::Net::getParam(LayerId layer, int numParam = 0)
+static Net cv::dnn::Net::readFromModelOptimizer(String xml, String bin)
+ Ptr_Layer cv::dnn::Net::getLayer(LayerId layerId)
+ bool cv::dnn::Net::empty()
+ int cv::dnn::Net::getLayerId(String layer)
+ int cv::dnn::Net::getLayersCount(String layerType)
+ int64 cv::dnn::Net::getFLOPS(MatShape netInputShape)
+ int64 cv::dnn::Net::getFLOPS(int layerId, MatShape netInputShape)
+ int64 cv::dnn::Net::getFLOPS(int layerId, vector_MatShape netInputShapes)
+ int64 cv::dnn::Net::getFLOPS(vector_MatShape netInputShapes)
+ int64 cv::dnn::Net::getPerfProfile(vector_double& timings)
+ vector_String cv::dnn::Net::getLayerNames()
+ vector_int cv::dnn::Net::getUnconnectedOutLayers()
+ void cv::dnn::Net::connect(String outPin, String inpPin)
+ void cv::dnn::Net::deleteLayer(LayerId layer)
+ void cv::dnn::Net::enableFusion(bool fusion)
+ void cv::dnn::Net::forward(vector_Mat& outputBlobs, String outputName = String())
+ void cv::dnn::Net::forward(vector_Mat& outputBlobs, vector_String outBlobNames)
+ void cv::dnn::Net::getLayerTypes(vector_String& layersTypes)
+ void cv::dnn::Net::getMemoryConsumption(MatShape netInputShape, size_t& weights, size_t& blobs)
+ void cv::dnn::Net::getMemoryConsumption(int layerId, MatShape netInputShape, size_t& weights, size_t& blobs)
+ void cv::dnn::Net::getMemoryConsumption(int layerId, vector_MatShape netInputShapes, size_t& weights, size_t& blobs)
+ void cv::dnn::Net::setHalideScheduler(String scheduler)
+ void cv::dnn::Net::setInput(Mat blob, String name = "", double scalefactor = 1.0, Scalar mean = Scalar())
+ void cv::dnn::Net::setInputsNames(vector_String inputBlobNames)
+ void cv::dnn::Net::setParam(LayerId layer, int numParam, Mat blob)
+ void cv::dnn::Net::setPreferableBackend(int backendId)
+ void cv::dnn::Net::setPreferableTarget(int targetId)
+  cv::dnn::DictValue::DictValue(String s)
+  cv::dnn::DictValue::DictValue(double p)
+  cv::dnn::DictValue::DictValue(int i)
+ String cv::dnn::DictValue::getStringValue(int idx = -1)
+ bool cv::dnn::DictValue::isInt()
+ bool cv::dnn::DictValue::isReal()
+ bool cv::dnn::DictValue::isString()
+ double cv::dnn::DictValue::getRealValue(int idx = -1)
+ int cv::dnn::DictValue::getIntValue(int idx = -1)
+
+SKIPPED FUNCs LIST (3 of 67):
+
+ void cv::dnn::Net::forward(vector_vector_Mat& outputBlobs, vector_String outBlobNames)
+// Unknown type 'vector_vector_Mat' (O), skipping the function
+
+ void cv::dnn::Net::getLayersShapes(MatShape netInputShape, vector_int& layersIds, vector_vector_MatShape& inLayersShapes, vector_vector_MatShape& outLayersShapes)
+// Unknown type 'vector_vector_MatShape' (O), skipping the function
+
+ void cv::dnn::Net::getLayersShapes(vector_MatShape netInputShapes, vector_int& layersIds, vector_vector_MatShape& inLayersShapes, vector_vector_MatShape& outLayersShapes)
+// Unknown type 'vector_vector_MatShape' (O), skipping the function
+
+
+0 def args - 41 funcs
+1 def args - 16 funcs
+2 def args - 2 funcs
+3 def args - 1 funcs
+6 def args - 2 funcs
