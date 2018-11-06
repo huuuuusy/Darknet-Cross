@@ -4,7 +4,7 @@ Darknet-Cross is a lightweight deep learning framework based on [Darknet](https:
 
 ## 1. Framework Compare
 
-### Original Darknet
+### 1.1 Original Darknet
 
 The original [Darknet](https://github.com/pjreddie/darknet) framework is a relatively light-weighted and open-source deep learning framework based on C and CUDA written by YOLO authors. Its main feature is easy to install with few dependencies, so the portability of Darknet is wonderful. Darknet framework supports NVIDIA GPU acceleration.
 
@@ -12,11 +12,11 @@ Darknet is designed for providing acceleration of YOLO algorithm. YOLO is the re
 
 ![](img/1.png)
 
-### yolov2_light
+### 1.2 yolov2_light
 
 The [yolov2_light](https://github.com/AlexeyAB/yolo2_light) framework is a light-weighted version of Darknet. It only remains the code that supports object detection in Darknet, and provides the OpenCL version for YOLO-V2 computation acceleration in Windows system. 
 
-### Darknet-Cross
+### 1.3 Darknet-Cross
 
 Darknet-Cross provides computation acceleration for multi-platform (Eg.Ubuntu/Android) and multiple types of GPUs (Eg. Nvidia GTX1070/ Adreno 630).
 
