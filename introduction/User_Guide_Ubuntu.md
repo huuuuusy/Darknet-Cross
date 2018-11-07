@@ -223,10 +223,90 @@ The process command for test2.mp4(from Videezy):
 
 ![](img/2.gif)
 
-## [1.3 Ubuntu-OpenCL Version]
+## 1.3 Ubuntu-OpenCL Version
 
-### [1.3.1 OpenCL Installation]
+### 1.3.1 OpenCL Installation
 
-### [1.3.2 CLBlast Installation]
+CUDA library provides cumputation acceleration, but it only supports Nvidia GPU. Thus, the OpenCL version is designed to support different types of GPUs.
 
-### [1.3.3 Ubuntu-OpenCL Version Compile]
+The GPU in my PC is Nvidia GTX1070. Since I've installed CUDA9.0, the OpenCL is also installed in my PC with CUDA.
+
+	clinfo
+
+![](img/20.png)
+
+Use clinfo command to list the OpenCL information, it is clear that my Nvidia Driver is 390.48, and I've installed OpenCL 1.2 with CUDA.
+
+In fact, I've assigned the path of OpenCL folder in Makefile. However, it only suits the OpenCL based on CUDA.(For no-Nvidia GPUs which only installing OpenCL needs to change the path)
+
+    ifeq ($(U_OPENCL), 1) 
+    COMMON+= -DOPENCL -I./src/Ubuntu/include -I/usr/local/cuda/include -I./src/Ubuntu
+    CFLAGS+= -DOPENCL
+    LDFLAGS+= -L/usr/local/cuda/lib64 -lOpenCL 
+    endif
+
+**Please make sure the path in Makefile is the same as your OpenCL path.**
+
+### 1.3.2 CLBlast Installation
+
+[CLBlast](https://github.com/CNugteren/CLBlast) is a modern, lightweight, performant and tunable OpenCL BLAS library written in C++11. It is designed to leverage the full performance potential of a wide variety of OpenCL devices from different vendors, including desktop and laptop GPUs, embedded GPUs, and other accelerators.
+
+I've finished the compiling process in Ubuntu 16.04 and set the libraries and header files in 3rdParty folder. The path of these files are also assigned in Makefile.
+
+    ifeq ($(U_CLBLAST), 1) 
+    COMMON+= -DCLBLAST -I./3rdParty/Ubuntu/CLBlast/include 
+    CFLAGS+= -DCLBLAST
+    LDFLAGS+= -L./3rdParty/Ubuntu/CLBlast -lclblast 
+    endif
+
+If your system is Ubuntu 16.04, you can use the CLBlast libraries directly. 
+
+If you want to compile CLBlast by yourself, please following the steps below:
+
+(1)Download the source code from [CLBlast](https://github.com/CNugteren/CLBlast) and read the README file for more information.
+
+(2)Open a terminal in main folder and type:
+
+    mkdir build && cd build
+    cmake ..
+    make
+    
+For any questions in this step, please read [CLBlast: Building and installing](https://github.com/CNugteren/CLBlast/blob/master/doc/installation.md).
+
+![](img/23.png)
+
+(3)You can test the examples in build folder to verify the compiling result.
+
+![](img/24.png)
+
+### 1.3.3 Ubuntu-OpenCL Version Compile
+
+Open Makefile and set the UBUNTU_OPENCL = 1 while keep the others to 0.
+
+The following step is the same as the UBUNTU-CUDA version.
+
+	make clean
+    make
+
+The generated darknet executable file will be generated in bin folder.
+
+#### Test Single Image
+
+	cd bin
+	./darknet detector test coco.names yolov3-tiny.cfg yolov3-tiny.weights -thresh 0.24 dog.jpg
+
+The OpenCL information about device and platform will be printed at the beginning.
+
+![](img/25.png)
+
+![](img/26.png)
+
+The prediction time is shorter than the UBUNTU-CPU version but longer than the UBUNTU-CUDA version.
+
+#### Test Video
+
+The process command for test1.mp4(from Udacity):
+
+	./darknet detector demo coco.names yolov3-tiny.cfg yolov3-tiny.weights test1.mp4
+
+The video process steps are the same as UBUNTU-CUDA version expect the FPS value in prediction. More analysis and results will be listed in [IV. Darknet-Cross Performance](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md).

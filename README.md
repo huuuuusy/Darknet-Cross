@@ -4,11 +4,11 @@ Darknet-Cross is a lightweight deep learning framework based on [Darknet](https:
 
 Darknet-Cross is part of my MSc diploma project in HKU CS.
 
-***The source code folder will be uploaded after organized.***
+***The source code folder will be uploaded after organization.***
 
 # Contents
 
-## I. [Darknet-Cross Introduction](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Introduction.md)
+## [I. Darknet-Cross Introduction](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Introduction.md)
 
 ### [1. Framework Compare](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Introduction.md#1-framework-compare)
 
@@ -22,7 +22,7 @@ Darknet-Cross is part of my MSc diploma project in HKU CS.
 
 ### [3. Darknet-Cross Function](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Introduction.md#3-darknet-cross-function)
 
-## II. [Darknet-Cross Version](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Version.md)
+## [II. Darknet-Cross Version](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Version.md)
 
 ### [1. Project Structure](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Version.md#1-project-structure)
 
@@ -48,7 +48,7 @@ Darknet-Cross is part of my MSc diploma project in HKU CS.
 
 #### [2.2 Android Version](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Version.md#22-android-version)
 
-## III. [Darknet-Cross User Guide]
+## III. Darknet-Cross User Guide
 
 ### [1. Environment Configuration in Ubuntu 16.04](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/User_Guide_Ubuntu.md)
 
@@ -78,5 +78,5 @@ Darknet-Cross is part of my MSc diploma project in HKU CS.
 
 ### [3. User's Guidance]
 
-## IV. [Darknet-Cross Performance](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md)
+## [IV. Darknet-Cross Performance](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md)
 
