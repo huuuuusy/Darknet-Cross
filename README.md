@@ -48,7 +48,7 @@ Darknet-Cross is part of my MSc diploma project in HKU CS.
 
 #### [2.2 Android Version](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Version.md#22-android-version)
 
-## III. Darknet-Cross User Guide
+## III. Darknet-Cross Configuration
 
 ### [1. Environment Configuration in Ubuntu 16.04](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/User_Guide_Ubuntu.md)
 
@@ -70,13 +70,27 @@ Darknet-Cross is part of my MSc diploma project in HKU CS.
 
 ##### [1.3.3 Ubuntu-OpenCL Version Compile](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/User_Guide_Ubuntu.md#133-ubuntu-opencl-version-compile)
 
-### [2. Cross-compiling Environment Configuration  for Android 8.1.0]
+### [2. Cross-compiling Environment Configuration  for Android 8.1.0](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/User_Guide_Android.md)
 
-#### [2.1 Cross-compiling Configuration]
+#### [2.1 Cross-compiling Configuration](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/User_Guide_Android.md#21-cross-compiling-configuration)
 
-#### [2.2 3rd Parties Compiling]
+##### [2.1.1 Hardware Setting](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/User_Guide_Android.md#211-hardware-setting)
 
-### [3. User's Guidance]
+##### [2.1.2 Install Cross-Compiling Toolchain](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/User_Guide_Android.md#212-install-cross-compiling-toolchain)
 
-## [IV. Darknet-Cross Performance](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md)
+#### [2.2 3rd Parties Compiling](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/User_Guide_Android.md#22-3rd-parties-compiling)
+
+##### [2.2.1 OpenCL](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/User_Guide_Android.md#221-opencl)
+
+##### [2.2.2 CLBlast](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/User_Guide_Android.md#222-clblast)
+
+##### [2.2.3 OpenCV (Not used in this stage)](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/User_Guide_Android.md#223-opencv-not-used-in-this-stage)
+
+#### [2.3 Android-CPU Version]
+
+#### [2.4 Andorid-OpenCL Version]
+
+## [IV. Darknet-Cross User Guide]
+
+## [V. Darknet-Cross Performance](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md)
 
