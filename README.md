@@ -64,11 +64,11 @@ Darknet-Cross is part of my MSc diploma project in HKU CS.
 
 #### [1.3 Ubuntu-OpenCL Version](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/User_Guide_Ubuntu.md#13-ubuntu-opencl-version)
 
-##### [1.3.1 OpenCL Installation]
+##### [1.3.1 OpenCL Installation](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/User_Guide_Ubuntu.md#131-opencl-installation)
 
-##### [1.3.2 CLBlast Installation]
+##### [1.3.2 CLBlast Installation](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/User_Guide_Ubuntu.md#132-clblast-installation)
 
-##### [1.3.3 Ubuntu-OpenCL Version Compile]
+##### [1.3.3 Ubuntu-OpenCL Version Compile](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/User_Guide_Ubuntu.md#133-ubuntu-opencl-version-compile)
 
 ### [2. Cross-compiling Environment Configuration  for Android 8.1.0]
 
