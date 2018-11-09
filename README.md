@@ -86,9 +86,9 @@ Darknet-Cross is part of my MSc diploma project in HKU CS.
 
 ##### [2.2.3 OpenCV (Not used in this stage)](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/User_Guide_Android.md#223-opencv-not-used-in-this-stage)
 
-#### [2.3 Android-CPU Version]
+#### [2.3 Android-CPU Version](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/User_Guide_Android.md#23-android-cpu-version)
 
-#### [2.4 Andorid-OpenCL Version]
+#### [2.4 Andorid-OpenCL Version](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/User_Guide_Android.md#24-andorid-opencl-version)
 
 ## [IV. Darknet-Cross User Guide]
 

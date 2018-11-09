@@ -365,3 +365,19 @@ The opencl information will be printed at the begining.
 ![](img/55.png)
 
 ![](img/56.png)
+
+#### Test Multi-Image
+
+	adb push bin/test3 /Darknet_cross/test3
+
+Test3 folder is used to test the multi-image prediction in Android.
+
+	adb shell
+    cd Darknet_cross
+    ./darknet detector test coco.names yolov3-tiny.cfg yolov3-tiny.weights
+
+![](img/57.png)
+
+![](img/58.png)
+
+The average time of multi-image prediction is about 0.175 second in Adreno 630. More information and performance will be listed in [V. Darknet-Cross Performance](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md).
