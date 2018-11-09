@@ -290,5 +290,78 @@ The generate static libraries are as following:
 
 ## 2.3 Android-CPU Version
 
+Open Makefile and set the ANDROID_CPU = 1 while keep the others to 0.
+
+The following step is the same as the UBUNTU-CUDA version.
+
+	make clean
+    make
+
+The generated darknet executable file will be generated in bin folder.
+
+#### Test Single Image
+
+Copy the darknet file to the android_test/Darknet_cross folder.
+
+    cp bin/darknet android_test/Darknet_cross/darknet
+
+Now use adb to push the files in Android device.
+
+	adb root
+	adb shell
+	mkdir Darknet_cross
+
+![](img/51.png)
+
+The android_test/Darknet_cross folder includes the files used in execution.
+
+	adb push android_test/Darknet_cross /Darknet_cross
+
+![](img/52.png)
+
+The bin/data folder will be used in prediction (draw the name of prediction results in image), thus push it to Darknet_cross folder in Android.
+
+	adb push bin/data /Darknet_cross/data
+
+![](img/53.png)
+
+Now test the image prediction in Android.
+
+	adb shell
+    cd Darknet_cross
+    ./darknet detector test coco.names yolov3-tiny.cfg yolov3-tiny.weights -thresh 0.24 dog.jpg
+
+![](img/54.png)
+
 ## 2.4 Andorid-OpenCL Version
 
+Open Makefile and set the ANDROID_OPENCL = 1 while keep the others to 0.
+
+The following step is the same as the UBUNTU-CUDA version.
+
+	make clean
+    make
+
+The generated darknet executable file will be generated in bin folder.
+
+#### Test Single Image
+
+Copy the darknet file to the android_test/Darknet_cross folder.
+
+    adb push bin/darknet /Darknet_cross
+
+The android_test/Library folder includes the libraries used in execution.
+
+	adb push android_test/Library /system/bin
+
+Now test the image prediction in Android.
+
+	adb shell
+    cd Darknet_cross
+    ./darknet detector test coco.names yolov3-tiny.cfg yolov3-tiny.weights -thresh 0.24 dog.jpg
+
+The opencl information will be printed at the begining.
+
+![](img/55.png)
+
+![](img/56.png)
