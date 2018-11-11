@@ -227,8 +227,23 @@ To better represent the actual image prediction time, a comparison between Group
 
 #### 5.2.3 Compare Group5 & Group7 and Group6 & Group8 (Verify OpenCL Acceleration)
 
+![](img/86.png)
 
+- The OpenCL version takes much less time than the CPU version under different test conditions, which proves that **OpenCL version can provide acceleration support for different computing platforms and different types of GPUs.**
+- **For Ubuntu platform, the OpenCL version provides 55.75 times acceleration than CPU version by using YOLO-V3-Tiny, and provides 22.76 times acceleration by using YOLO-V3.**
+- **For Android platform, the OpenCL version provides 8.28 times acceleration than CPU version by using YOLO-V3-Tiny, and provides 5.72 times acceleration by using YOLO-V3.**
 
+#### 5.2.4 Compare Latency in Different Version
+
+![](img/87.png)
+
+![](img/88.png)
+
+These two images have the same meaning and here are the conclusions (**Since latency is determined by FPS and FPS is heavily influenced by the hardware platform, the specific value of this experiment is for reference only. Please pay attention to the multiple relationship rather than the value itself**):
+
+- **For model comparation: YOLO-V3-Tiny has a higher FPS than YOLO-V3**, so YOLO-V3-Tiny is more suitable for real-time processing when considering the factor of latency
+- **For different platforms: the OpenCL version in GTX1070 can provide 64.8 FPS while can provide 5.5 FPS in Adreno 630.**
+- **For Adreno 630: Android 8.1 invoke the Adreno 630 GPU and gets 5.5FPS on Test1.mp4.** Although the latency requirement for real-time processing has not been satisfied (FPS>=10), it can be used in applications with no requirement in latency.
 
 
 
