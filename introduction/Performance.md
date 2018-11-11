@@ -38,8 +38,10 @@ The multi-image data comes from the test video. The process steps are as followi
 ## 2. 
 
 |Num|Framework|Model|Platform|Version|Test Data|
-|:--:|:--:|:--:|:--:|:--:|
-|1	|Darknet-Cross	|YOLO-V3-Tiny	|Ubuntu 16.04	|OpenCL	|Test1.mp4 Multi-Image Data|
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|1|Darknet-Cross|YOLO-V3-Tiny|Ubuntu 16.04|OpenCL|Test1.mp4 Multi-Image Data|
+
+
 |2	|Darknet-Cross	YOLO-V3-Tiny	Ubuntu 16.04	OpenCL	Test2.mp4 Multi-Image Data
 |3	|Darknet-Cross	YOLO-V3-Tiny	Ubuntu 16.04	OpenCL	Test3.mp4 Multi-Image Data
 |4	Darknet-Cross	YOLO-V3-Tiny	Ubuntu 16.04	OpenCL	Test1.mp4 Video Data
