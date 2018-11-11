@@ -145,7 +145,35 @@ Draw the prediction time of each image in Exp1 (Model：YOLO-V3-Tiny, Platform: 
 
 ![](img/73.png)
 
-The prediction time of Multi-Image suddenly decreases after the first picture, while each subsequent picture can be stably predicted in a shorter time from the second picture. 
+The prediction time of Multi-Image suddenly decreases after the first picture, while each subsequent picture can be stably predicted in a shorter time from the second picture. After deleting the prediction time of the first image, it is clear that the prediction time in following images is stable, and the average prediction time can nearly keep constant.
+
+![](img/75.png)
+
+Analysis of Darknet's workflow shows that the program needs to read the configuration information of YOLO-V3 or YOLO-V3-Tiny from the configuration file and weight file during the first execution, and then reconstruct the model based on the Darknet framework. Once the reconstruction is complete, there is no need to repeat the process of model building in the following images. 
+
+Thus, the workflow of Darknet and Darknet-Cross in Video/Multi-Image data processing is as follows:
+
+- Initialize the program, read the model configuration file and weights, and reproduce the model (define this part of the time: model download time)
+- Start processing the first image, complete the prediction, and return the time (the time shown here is model download time + actual image prediction time), so the time returned by object detection in single image version is the sum of the two parts
+- For video or Multi-Image, read the next frame for continuous high-speed object detection. The predicted time returned by each frame is the real object detection time for a single frame in this stage. Define this part of time as: actual image prediction time
+
+![](img/74.png)
+
+**The prediction time ( = 1/FPS) in video data is equal to actual image prediction time in image data.** Now using the following results to verify the conclusion.
+
+#### 5.1.1 Test on YOLO-V3-Tiny
+|Data|Multi-Image|Video|
+|:--:|:--:|:--:|
+|Test1.mp4|Exp1|Exp4|
+|Test2.mp4|Exp2|Exp5|
+|Test3.mp4|Exp3|Exp6|
+
+![](img/76.png)
+|:--:|:--:|:--:|
+|![](img/77.png)|![](img/78.png)|![](img/79.png)|
+
+
+
 
 
 
