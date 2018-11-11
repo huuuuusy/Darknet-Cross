@@ -135,6 +135,19 @@ The following results will demonstrate Darknet-Cross supports multi-platform and
 
 ### 5.1 Foreword: Relationship of Prediction Time in Multi-Image and FPS in Video
 
+I've introduced in [2.2 Android Version](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Version.md#22-android-version) that the underlying Android platform lacks software like FFmpeg for decoding video and VideoCapture function cannot be executed due to the lack of the backend. YOLO will return a failed message when executing an instruction to parse the video in Android platform.
+
+A reasonable idea is: to test the Adreno 630 performance, capture the video frame by frame at first to form Multi-Image Data and push it to Android device, then test the performance of Multi-Image Data on the Adreno 630 GPU. The FPS of the video process on Adreno 630 is reflected by the detection time of Multi-Image.
+
+This section will verify the feasibility of using Multi-Image FPS instead of Video FPS through experiments comparation.
+
+Draw the prediction time of each image in Exp1 (Model：YOLO-V3-Tiny, Platform: Ubuntu, Version： OpenCL, Test Data: Test1.mp4 Multi-Image Data):
+
+![](img/73.png)
+
+The prediction time of Multi-Image suddenly decreases after the first picture, while each subsequent picture can be stably predicted in a shorter time from the second picture. 
+
+
 
 
 
