@@ -162,6 +162,7 @@ Thus, the workflow of Darknet and Darknet-Cross in Video/Multi-Image data proces
 **The prediction time ( = 1/FPS) in video data is equal to actual image prediction time in image data.** Now using the following results to verify the conclusion.
 
 #### 5.1.1 Test on YOLO-V3-Tiny
+
 |Data|Multi-Image|Video|
 |:--:|:--:|:--:|
 |Test1.mp4|Exp1|Exp4|
@@ -169,8 +170,7 @@ Thus, the workflow of Darknet and Darknet-Cross in Video/Multi-Image data proces
 |Test3.mp4|Exp3|Exp6|
 
 ![](img/76.png)
-|Data|Multi-Image|Video|
-|:--:|:--:|:--:|
+
 |![](img/77.png)|![](img/78.png)|![](img/79.png)|
 
 
