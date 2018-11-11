@@ -1,1 +1,0 @@
-#use_cache "/media/hu/hu-disk/test/opencv-test/opencv/.cache"

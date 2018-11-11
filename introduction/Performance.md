@@ -169,7 +169,6 @@ Thus, the workflow of Darknet and Darknet-Cross in Video/Multi-Image data proces
 |Test3.mp4|Exp3|Exp6|
 
 ![](img/76.png)
-|:--:|:--:|:--:|
 |![](img/77.png)|![](img/78.png)|![](img/79.png)|
 
 
