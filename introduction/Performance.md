@@ -171,9 +171,25 @@ Thus, the workflow of Darknet and Darknet-Cross in Video/Multi-Image data proces
 
 ![](img/76.png)
 
-|:--:|:--:|:--:|
-|![](img/77.png)|![](img/78.png)|![](img/79.png)|
+#### 5.1.2 Test on YOLO-V3
 
+|Data|Multi-Image|Video|
+|:--:|:--:|:--:|
+|Test1.mp4|Exp7|Exp8|
+
+![](img/80.png)
+
+#### 5.1.3 Conclusion
+
+- **The prediction time in video data is equal to actual image prediction time in image data.** The FPS ( = 1/actual image prediction time) of each frame is nearly same when the same video file passes through Darknet-Cross as Multi-Image or video. 
+
+- **The Multi-Image Data can be used instead of Video Data for Darknet-Cross to solve the problem that Android cannot invoke OpenCV to decode video.**
+
+### 5.2	Multi-Platform Process Speed Comparation
+
+This section will test the performance of Darknet-Cross in different platforms by using a series of experiments on Ubuntu 16.04 and Android 8.1.
+
+![](img/81.png)
 
 
 
