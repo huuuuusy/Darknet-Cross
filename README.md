@@ -92,7 +92,17 @@ Darknet-Cross is part of my MSc diploma project in HKU CS.
 
 ## [IV. Darknet-Cross Commands](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Commands.md)
 
-### 
+### [1. Compiling](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Commands.md#1-compiling)
+
+### [2. Test](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Commands.md#2-test)
+
+#### [2.1 Model Choose](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Commands.md#21-model-choose)
+
+#### [2.2 Image Test](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Commands.md#22-image-test)
+
+#### [2.3 Video Test](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Commands.md#23-video-test)
+
+#### [2.4 Multi-Image Test](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Commands.md#24-multi-image-test)
 
 ## [V. Darknet-Cross Performance](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md)
 
