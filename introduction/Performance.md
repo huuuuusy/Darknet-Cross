@@ -18,6 +18,9 @@ The performance tests are completed in Ubuntu 16.06 and Android 8.1 platform wit
 |:--:|:--:|:--:|:--:|
 |dog.jpg|[Darknet official website](https://pjreddie.com/darknet/yolo/)|768*576 RGB image|object detection test in single image|
 
+#### 1.2.2 Video Data
+
+
 
 
 
