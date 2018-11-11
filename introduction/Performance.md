@@ -187,13 +187,39 @@ Thus, the workflow of Darknet and Darknet-Cross in Video/Multi-Image data proces
 
 ### 5.2	Multi-Platform Process Speed Comparation
 
-This section will test the performance of Darknet-Cross in different platforms by using a series of experiments on Ubuntu 16.04 and Android 8.1.
+This section will test the performance of Darknet-Cross in different platforms by using a series of experiments on Ubuntu 16.04 and Android 8.1. The 16 experiments covered in this section are divided into Group1 ~ Group8 for comparison.
 
 ![](img/81.png)
 
+#### 5.2.1 Compare Group1 & Group2 (Single Image: Ubuntu vs. Android)
 
+![](img/82.png)
 
+We can get some obvious conclusions:
 
+- The FPS of YOLO-V3-Tiny is higher than YOLO-V3
+- Darknet-Cross is faster on Ubuntu 16.04 than on Android 8.1
+- OpenCL version is faster than CPU version
+
+Since the model download time and the actual image prediction time are included in the above result, thus we need to delete the model download time (this time is not related to GPU performance) and compare the actual image prediction time. 
+
+To better represent the actual image prediction time, a comparison between Group3 and Group4 is performed.
+
+#### 5.2.2 Compare Group3 & Group4 (Multi-Image: Ubuntu vs. Android)
+
+![](img/83.png)
+
+- **The model download time is basically the same under different conditions**, because the model download phase is executed on the CPU and does not activate the OpenCL kernel, so it is not affected by the version
+
+##### Compare CPU Version
+
+![](img/84.png)
+
+- **For CPU versions, the actual image prediction time on Android 8.1 (Kryo 385 CPU) is about twice than the Ubuntu 16.04 (Intel Core i7-7700 HQ CPU)**
+
+##### Compare GPU Version
+
+![](img/85.png)
 
 
 
