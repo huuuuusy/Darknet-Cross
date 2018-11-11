@@ -131,3 +131,33 @@ Darknet-Cross is part of my MSc diploma project in HKU CS.
 ### [3. Detailed Information for Experiments](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#3-detailed-information-for-experiments)
 
 ### [4. Multi-framework Test (Darknet-Cross vs. Darknet)](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#4-multi-framework-test-darknet-cross-vs-darknet)
+
+#### [4.1 Executable File Size Comparation](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#41-executable-file-size-comparation)
+
+#### [4.2 GPU Usage Rate Comparation](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#42-gpu-usage-rate-comparation)
+
+#### [4.3 Process Speed Comparation](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#43-process-speed-comparation)
+
+##### [4.3.1 Test on Video](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#431-test-on-video)
+
+##### [4.3.2 Test on Single Image](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#432-test-on-single-image)
+
+### [5. Multi-Platform Test (Different Verions Comparation in Darknet-Cross)](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#5-multi-platform-test-different-verions-comparation-in-darknet-cross)
+
+#### [5.1 Foreword: Relationship of Prediction Time in Multi-Image and FPS in Video](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#51-foreword-relationship-of-prediction-time-in-multi-image-and-fps-in-video)
+
+##### [5.1.1 Test on YOLO-V3-Tiny](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#511-test-on-yolo-v3-tiny)
+
+##### [5.1.2 Test on YOLO-V3](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#512-test-on-yolo-v3)
+
+##### [5.1.3 Conclusion](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#513-conclusion)
+
+#### [5.2	Multi-Platform Process Speed Comparation](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#52multi-platform-process-speed-comparation)
+
+##### [5.2.1 Compare Group1 & Group2 (Single Image: Ubuntu vs. Android)](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#521-compare-group1--group2-single-image-ubuntu-vs-android)
+
+##### [5.2.2 Compare Group3 & Group4 (Multi-Image: Ubuntu vs. Android)](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#522-compare-group3--group4-multi-image-ubuntu-vs-android)
+
+##### [5.2.3 Compare Group5 & Group7 and Group6 & Group8 (Verify OpenCL Acceleration)](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#523-compare-group5--group7-and-group6--group8-verify-opencl-acceleration)
+
+##### [5.2.4 Compare Latency in Different Version](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#524-compare-latency-in-different-version)
