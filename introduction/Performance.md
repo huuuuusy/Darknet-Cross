@@ -221,6 +221,8 @@ To better represent the actual image prediction time, a comparison between Group
 
 ![](img/85.png)
 
+- **For GPU versions, the actual image prediction time used by Darknet-Cross on Android 8.1 (Adreno 630 GPU) is approximately 10 times that of Ubuntu 16.04 (NVIDIA GTX1070 GPU)**
+
 
 
 
