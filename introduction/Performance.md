@@ -76,5 +76,19 @@ All the experiment numbers used in the following page are equal to the number in
 
 ## 4. Multi-framework Test (Darknet-Cross vs. Darknet)
 
-This chapter is designed to compare the performance of these two frameworks. The following results will demonstrate Darknet-Cross is a light-weighted framework with higher FPS.
+This chapter is designed to compare the performance of these two frameworks. Since I've illustrated the accuracy of these two framework is same in [1.4 Conclusion](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#14-conclusion), the following results will demonstrate Darknet-Cross is a light-weighted framework with higher FPS.
+
+**This chapter compares two frameworks in Ubuntu platform (since Android support is a new feature in Darknet-Cross).**
+
+### 4.1 Executable File Size
+
+|Framework|CPU Version|CUDA + OpenCV Version|
+|:--:|:--:|:--:|
+|Darknet|Exp28: 640.1KB|Exp26: 2.1MB|
+|Darknet-Cross|Exp15: 291.6KB|Exp13: 660.5KB|
+
+**The executable file compiled by Darknet-Cross is much smaller than the original Darknet**, since the Darknet-Cross framework only retains the object detection function to make sure the light-weighted framework structure.
+
+
+
 
