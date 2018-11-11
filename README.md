@@ -90,7 +90,7 @@ Darknet-Cross is part of my MSc diploma project in HKU CS.
 
 #### [2.4 Andorid-OpenCL Version](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/User_Guide_Android.md#24-andorid-opencl-version)
 
-## [IV. Darknet-Cross User Guide]
+## [Darknet-Cross Commands]
 
 ## [V. Darknet-Cross Performance](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md)
 
