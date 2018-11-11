@@ -223,6 +223,12 @@ To better represent the actual image prediction time, a comparison between Group
 
 - **For GPU versions, the actual image prediction time used by Darknet-Cross on Android 8.1 (Adreno 630 GPU) is approximately 10 times that of Ubuntu 16.04 (NVIDIA GTX1070 GPU)**
 
+**The OpenCL version runs faster than the CPU version on different platforms, proving that OpenCL invokes GPU for acceleration.** To better prove the effect of OpenCL acceleration, compare the result of Group5 & Group7, Group6 & Group8
+
+#### 5.2.3 Compare Group5 & Group7 and Group6 & Group8 (Verify OpenCL Acceleration)
+
+
+
 
 
 
