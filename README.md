@@ -106,3 +106,28 @@ Darknet-Cross is part of my MSc diploma project in HKU CS.
 
 ## [V. Darknet-Cross Performance](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md)
 
+### [1. Foreword: Relationship of DNN model, DL Framework and Hardware Environment]
+
+#### [1.1 DNN Model]
+
+#### [1.2 DL Framework]
+
+#### [1.3 Hardware Platform]
+
+#### [1.4 Conclusion]
+
+### [2. Test Environment]
+
+#### [2.1 Platform]
+
+#### [2.2 Data]
+
+##### [2.2.1 Single Image Data]
+
+##### [2.2.2 Video Data]
+
+##### [2.2.3 Multi-Image Data]
+
+### [3. Detailed Information for Experiments]
+
+### [4. Multi-framework Test (Darknet-Cross vs. Darknet)]
