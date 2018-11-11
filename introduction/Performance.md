@@ -89,6 +89,22 @@ This chapter is designed to compare the performance of these two frameworks. Sin
 
 **The executable file compiled by Darknet-Cross is much smaller than the original Darknet**, since the Darknet-Cross framework only retains the object detection function to make sure the light-weighted framework structure.
 
+### 4.2 GPU Usage Rate
+
+	nvidia-smi
+
+This command is used to check the GPU usage rate in object detection process. 
+
+|Framework|YOLO-V3|YOLO-V3-Tiny|
+|:--:|:--:|:--:|
+|Darknet|Exp27: 1503MB|Exp26: 449MB|
+|Darknet-Cross|Exp12 :921MB|Exp11: 363MB|
+
+This table shows the GPU usage when using YOLO-V3 and YOLO-V3-Tiny to process Test1.mp4 Video Data in two frameworks. It can be concluded that **Darknet-Cross uses less GPU memory during execution**, which proves the lightweight characteristic.
+
+
+
+
 
 
 
