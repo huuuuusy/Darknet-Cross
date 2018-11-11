@@ -80,6 +80,8 @@ This chapter is designed to compare the performance of these two frameworks. Sin
 
 **This chapter compares two frameworks in Ubuntu platform (since Android support is a new feature in Darknet-Cross).**
 
+**The OpenCL version will not be tested in this part (since OpenCL support is a new feature in Darknet-Cross)**
+
 ### 4.1 Executable File Size Comparation
 
 |Framework|CPU Version|CUDA + OpenCV Version|
@@ -103,6 +105,37 @@ This command is used to check the GPU usage rate in object detection process.
 This table shows the GPU usage when using YOLO-V3 and YOLO-V3-Tiny to process Test1.mp4 Video Data in two frameworks. It can be concluded that **Darknet-Cross uses less GPU memory during execution**, which proves the lightweight characteristic.
 
 ### 4.3 Process Speed Comparation
+
+#### 4.3.1 Test on Video
+
+![](img/72.png)
+
+This image shows the FPS when using YOLO-V3 model to process Test1.mp4 Video Date in two frameworks. It can be concluded that **Darknet-Cross has a higher FPS during execution, which proves its light weight feature**.
+
+#### 4.3.2 Test on Single Image 
+
+|Version|Darknet-Cross(second)|Darknet(second)|Difference Value(second)|Increase Rate(%)|
+|:--:|:--:|:--:|:--:|:--:|
+|V3-Tiny-CPU|0.854647|1.626862|0.772215|47.46653373|
+|V3-Tiny-CUDA|0.004042|0.004149|0.000107|2.578934683|
+|V3-CPU|9.126586|19.027259|9.900673|52.03415269|
+|V3-CUDA|0.027233|0.025488|-0.001745|-6.846359071|
+
+As shown in this table:
+
+-  The processing speed of Darknet-Cross on the CPU is significantly improved compared to the original Darknet. 
+-  Darknet and Darknet-Cross can predict a single image very quickly due to the CUDA acceleration when testing on the NVIDIA GTX1070 GPU, so the difference between the CUDA version in two frameworks is very weak. 
+-  The results of the CPU version have proven that **Darknet-Cross is a lightweight, high-speed framework compared to Darknet**.
+
+## 5. Multi-Platform Test (Different Verions Comparation in Darknet-Cross)
+
+This chapter is designed to test the performance of different versions in Darknet-Cross.
+
+The following results will demonstrate Darknet-Cross supports multi-platform and multi-typies of GPU.
+
+### 5.1 Foreword: Relationship of Prediction Time in Multi-Image and FPS in Video
+
+
 
 
 
