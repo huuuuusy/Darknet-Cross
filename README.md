@@ -106,28 +106,28 @@ Darknet-Cross is part of my MSc diploma project in HKU CS.
 
 ## [V. Darknet-Cross Performance](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md)
 
-### [1. Foreword: Relationship of DNN model, DL Framework and Hardware Environment]
+### [1. Foreword: Relationship of DNN model, DL Framework and Hardware Environment](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#1-foreword-relationship-of-dnn-model-dl-framework-and-hardware-environment)
 
-#### [1.1 DNN Model]
+#### [1.1 DNN Model](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#11-dnn-model)
 
-#### [1.2 DL Framework]
+#### [1.2 DL Framework](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#12-dl-framework)
 
-#### [1.3 Hardware Platform]
+#### [1.3 Hardware Platform](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#13-hardware-platform)
 
-#### [1.4 Conclusion]
+#### [1.4 Conclusion](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#14-conclusion)
 
-### [2. Test Environment]
+### [2. Test Environment](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#2-test-environment)
 
-#### [2.1 Platform]
+#### [2.1 Platform](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#21-platform)
 
-#### [2.2 Data]
+#### [2.2 Data](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#22-data)
 
-##### [2.2.1 Single Image Data]
+##### [2.2.1 Single Image Data](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#221-single-image-data)
 
-##### [2.2.2 Video Data]
+##### [2.2.2 Video Data](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#222-video-data)
 
-##### [2.2.3 Multi-Image Data]
+##### [2.2.3 Multi-Image Data](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#223-multi-image-data)
 
-### [3. Detailed Information for Experiments]
+### [3. Detailed Information for Experiments](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#3-detailed-information-for-experiments)
 
-### [4. Multi-framework Test (Darknet-Cross vs. Darknet)]
+### [4. Multi-framework Test (Darknet-Cross vs. Darknet)](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#4-multi-framework-test-darknet-cross-vs-darknet)
