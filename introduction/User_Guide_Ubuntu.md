@@ -215,13 +215,13 @@ The process command for test1.mp4(from Udacity):
 
 	./darknet detector demo coco.names yolov3-tiny.cfg yolov3-tiny.weights test1.mp4
 
-![](img/1.gif)
+![](img/01.gif)
 
 The process command for test2.mp4(from Videezy):
 
 	./darknet detector demo coco.names yolov3-tiny.cfg yolov3-tiny.weights test2.mp4
 
-![](img/2.gif)
+![](img/02.gif)
 
 ## 1.3 Ubuntu-OpenCL Version
 
