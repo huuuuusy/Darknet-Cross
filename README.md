@@ -6,6 +6,14 @@ Darknet-Cross is part of my MSc diploma project in HKU CS.
 
 ***The source code folder will be uploaded after organization.***
 
+# Demo
+
+The Darknet-Cross demo video has been uploaded to YouTube:
+
+[【Darknet-Cross User Guide】](https://www.youtube.com/watch?v=8xCK8W_QdOA) includes all steps and specific tests in different versions.
+
+[【Darknet-Cross Performance】](https://www.youtube.com/watch?v=_ma2aS2Ho4Q) includes  detailed experiment results and comparation results.
+
 # Contents
 
 ## [I. Darknet-Cross Introduction](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Introduction.md)

@@ -2,7 +2,7 @@
 
 Darknet including the following versions:
 
-|Platform|[Ubuntu 16.04](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Version.md#ubuntu-version)|[Android 8.1.0](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Version.md#android-version)|
+|Platform|Ubuntu 16.04|Android 8.1.0|
 |:--:|:--:|:--:|
 |CPU|Darknet-Cross-Ubuntu-CPU|Darknet-Cross-Android-CPU|
 |CUDA|Darknet-Cross-Ubuntu-CUDA||

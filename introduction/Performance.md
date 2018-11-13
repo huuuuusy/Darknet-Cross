@@ -76,6 +76,8 @@ All the experiment numbers used in the following page are equal to the number in
 
 ## 4. Multi-framework Test (Darknet-Cross vs. Darknet)
 
+### [Demo:【Darknet-Cross Performance】2. Framework Compare](https://www.youtube.com/watch?v=VeZZBZLzJVk)
+
 This chapter is designed to compare the performance of these two frameworks. Since I've illustrated the accuracy of these two framework is same in [1.4 Conclusion](https://github.com/huuuuusy/Darknet-Cross/blob/master/introduction/Performance.md#14-conclusion), the following results will demonstrate Darknet-Cross is a light-weighted framework with higher FPS.
 
 **This chapter compares two frameworks in Ubuntu platform (since Android support is a new feature in Darknet-Cross).**
@@ -128,6 +130,8 @@ As shown in this table:
 -  The results of the CPU version have proven that **Darknet-Cross is a lightweight, high-speed framework compared to Darknet**.
 
 ## 5. Multi-Platform Test (Different Verions Comparation in Darknet-Cross)
+
+### [Demo:【Darknet-Cross Performance】3. Darknet-Cross Versions Compare](https://www.youtube.com/watch?v=i-KlF-IhMrg)
 
 This chapter is designed to test the performance of different versions in Darknet-Cross.
 

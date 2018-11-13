@@ -2,6 +2,8 @@
 
 ## 1.1 Ubuntu-CPU Version
 
+### [Demo:【Darknet-Cross User Guide】 1. Ubuntu-CPU Version](https://www.youtube.com/watch?v=D7c89kU0FXk)
+
 First, compile the ubuntu-cpu version for test. 
 
 Clone the Darknet-Cross project in Github:
@@ -193,6 +195,8 @@ This is a small program to open the camera, and hello opencv will appera on the 
 
 ### 1.2.3 Ubuntu-CUDA Version Compile
 
+### [Demo:【Darknet-Cross User Guide】2. Ubuntu-CUDA Version](https://www.youtube.com/watch?v=Z-wjtzzIN7I)
+
 Open Makefile and set the UBUNTU_CUDA = 1 while keep the others to 0.
 
 	make clean
@@ -280,6 +284,8 @@ For any questions in this step, please read [CLBlast: Building and installing](h
 ![](img/24.png)
 
 ### 1.3.3 Ubuntu-OpenCL Version Compile
+
+### [Demo:【Darknet-Cross User Guide】3. Ubuntu-OpenCL Version](https://www.youtube.com/watch?v=UwaMubGUVbU)
 
 Open Makefile and set the UBUNTU_OPENCL = 1 while keep the others to 0.
 

@@ -290,6 +290,8 @@ The generate static libraries are as following:
 
 ## 2.3 Android-CPU Version
 
+### [Demo:【Darknet-Cross User Guide】4. Android-CPU Version](https://www.youtube.com/watch?v=l9-g7vx8Hs0)
+
 Open Makefile and set the ANDROID_CPU = 1 while keep the others to 0.
 
 The following step is the same as the UBUNTU-CUDA version.
@@ -334,6 +336,8 @@ Now test the image prediction in Android.
 ![](img/54.png)
 
 ## 2.4 Andorid-OpenCL Version
+
+### [Demo:【Darknet-Cross User Guide】5. Android-OpenCL Version](https://www.youtube.com/watch?v=wfl1E0TAf_g&t=48s)
 
 Open Makefile and set the ANDROID_OPENCL = 1 while keep the others to 0.
 
