@@ -1,5 +1,7 @@
 # 2. Cross-compiling Environment Configuration  for Android 8.1.0
 
+![](img/91.png)
+
 ## 2.1 Cross-compiling Configuration
 
 A [cross compiler](https://en.wikipedia.org/wiki/Cross_compiler) is a compiler capable of creating executable code for a platform other than the one on which the compiler is running.

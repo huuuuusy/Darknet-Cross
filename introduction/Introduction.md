@@ -22,6 +22,8 @@ Darknet-Cross provides computation acceleration for multi-platform (Eg.Ubuntu/An
 
 The following image lists the differences between the original Darknet, the YOLOV2-Light and the Darknet-Cross.
 
+![](img/89.png)
+
 ![](img/2.png)
 
 ## 2. YOLO-V3 Model

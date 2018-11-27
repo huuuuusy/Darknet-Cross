@@ -1,5 +1,7 @@
 # 1. Environment Configuration in Ubuntu 16.04
 
+![](img/90.png)
+
 ## 1.1 Ubuntu-CPU Version
 
 ### [Demo:【Darknet-Cross User Guide】 1. Ubuntu-CPU Version](https://www.youtube.com/watch?v=D7c89kU0FXk)
