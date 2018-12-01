@@ -6,8 +6,6 @@ Darknet-Cross is a lightweight deep learning framework based on [Darknet](https:
 
 Darknet-Cross is part of my MSc diploma project in HKU CS.
 
-***The source code folder will be uploaded after organization.***
-
 ![](introduction/img/demo.gif)
 
 # Demo
